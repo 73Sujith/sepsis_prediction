@@ -1,7 +1,4 @@
 Sepsis Prediction Methodology
-==============================
-This repository contains a rewritten version of the code for our submission (Team Name: Can I get your Signature?) to the PhysioNet 2019 challenge. 
-
 
 Getting Started
 ---------------
@@ -16,6 +13,4 @@ Run the following:
 1. ``python src/data/get_data/download.py`` To download the raw .psv files to `/data/raw`
 2. ``python src/data/get_data/convert_data.py`` To convert the downloaded data into a pandas dataframe (for easy analysis) and a TimeSeriesDataset (for fast operations).
     
-You are then ready to go! Check `/notebooks/examples/prediction.ipynb` for an intro to the basic prediction methods and the functions used to generate the features. Then either follow the example and use a notebook to build your own models, or do something similar to that seen in ``src/model/examples/train_{MODEL_TYPE}.py``. 
-
-More functionality will be added soon!
+You are then ready to go! Check `/notebooks/examples/prediction.ipynb` for an intro to the basic prediction methods and the functions used to generate the features.
